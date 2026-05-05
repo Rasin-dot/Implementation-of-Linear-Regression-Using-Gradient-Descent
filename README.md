@@ -33,9 +33,11 @@ To write a program to predict the profit of a city using the linear regression m
 
 ## Program:
 ```
+Program to implement the linear regression using gradient descent.
 Developed by: Rasindhan R
 RegisterNumber: 212224230222
-
+```
+```
 
 import numpy as np
 import pandas as pd
@@ -70,8 +72,6 @@ prediction=prediction.reshape(-1,1)
 pre=scaler.inverse_transform(prediction)
 print(prediction)
 print(f"Predicted value: {pre}")
-
-Program to implement the linear regression using gradient descent.
 
 
 ```
